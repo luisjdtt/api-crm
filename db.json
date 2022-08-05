@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Luis",
+      "empresa": "RODAI",
+      "email": "luis@gmail.com",
+      "telefono": "2223610110",
+      "notas": "Cliente recomendado",
+      "id": 1
+    },
+    {
+      "nombre": "Alex",
+      "empresa": "RODAI",
+      "email": "alex@gmail.com",
+      "telefono": "9995643211",
+      "notas": "Nuevo cliente",
+      "id": 2
+    },
+    {
+      "nombre": "Carlos",
+      "empresa": "CIMAT",
+      "email": "carlos@cad.com",
+      "telefono": "9994562311",
+      "notas": "Valiendo kk",
+      "id": 3
+    },
+    {
+      "nombre": "Brenda Lavalle",
+      "empresa": "LEO",
+      "email": "brendalavalle@gmail.com",
+      "telefono": "9999786532",
+      "notas": "Tia mo",
+      "id": 4
+    }
+  ]
+}
