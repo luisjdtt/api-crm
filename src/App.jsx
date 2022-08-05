@@ -4,8 +4,11 @@ import Inicio from './paginas/Inicio'
 import NuevoCliente from './paginas/NuevoCliente'
 import VerCliente from './paginas/VerCliente'
 import EditarCliente from './paginas/EditarCliente'
+import Home from './paginas/Home'
 
 function App() {
+
+	console.log(import.meta.env.VITE_API_URL)
 	return (
 		<BrowserRouter> 
 			<Routes>
@@ -14,6 +17,10 @@ function App() {
 					<Route path="nuevo" element={<NuevoCliente />}/>
 					<Route path="editar/:id" element={<EditarCliente />}/>
 					<Route path=":id" element={<VerCliente />}/>
+				</Route>
+
+				<Route path="/" element={<Layout />}>
+					<Route index element={<Home />} />
 				</Route>
 
 			</Routes>
